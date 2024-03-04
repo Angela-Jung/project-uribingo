@@ -16,7 +16,7 @@
 ## Links
 
 #### 기능명세서
-https://www.notion.so/angiejeong/fa38e2bd601b4f859269af1170ce8813?v=b33208bbae1740b0bd99db764df8aa39&pvs=4
+https://angiejeong.notion.site/fa38e2bd601b4f859269af1170ce8813?v=b33208bbae1740b0bd99db764df8aa39&pvs=4
 
 #### figma
 https://www.figma.com/file/nUCmIucid5ugEkT5f1yD9D/leute?type=design&node-id=0%3A1&mode=design&t=ldbgQe8UTGboDGWF-1
