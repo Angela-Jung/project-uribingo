@@ -1,25 +1,45 @@
 # 우리빙고 (UriBingo)
 
-공용 냉장고 관리 솔루션을 제공하는 앱
+공용 냉장고 관리 솔루션을 제공하는 앱 <br>
+2024.01 - 2024.02 (팀 프로젝트)
 
 ![제목 추가](https://github.com/sanghyun3377/project_super.team/assets/89803783/120e6f74-eb01-4b54-b00d-f9a7f2a2f060)
 
+
 <br>
 
-|구분|설명|
-|----|---|
-|프로젝트 목적|공용 냉장고 관리가 어렵다는 요구를 받아 시작한 프로젝트로 공용 냉장고 음식 관리 솔루션 제공
-|작업 기간|2024.01~2024.02 (3주)
-|Skills|Dart, Flutter, Firebase, Provider, MVVM
-|시연영상|관리자용 화면<br>https://drive.google.com/file/d/17X50oXCtJbBu2uJldqCZn20O9_hK7jJB/view?usp=sharing<br>이용자용 화면<br>https://drive.google.com/file/d/1qVPzZEJYEuHm-IYdfJqTEM3J_A2zUeLG/view?usp=sharing
+## Skills
+Dart, Flutter, Provider, MVVM, Figma, Notion
+<br>
+<br>
+## 인원 구성
+총 6인 (기여도 30%) | 플러터 개발자
+<br>
+<br>
+<br>
 
-## Links
+## 주요 개선 사항 <br>
+사용자의 편의성을 고려하여 사진 등록만으로 모든 필수 정보가 자동으로 생성 및 저장되도록 구현 <br>
+- 냉장고 관리자의 니즈로 시작된 프로젝트 → 직원의 입장에서 앱 사용 강제성이 생기는 부분에 대해 고민 <br>
+- 필수 정보를 하나씩 입력해야 했던 기존 기획을 자동 생성으로 변경하기로 결정 <br>
+- DateTime 클래스와 difference 메서드를 이용한 자동 계산 시스템 구현 <br>
+- 음식 사진을 등록하는 시점을 자동으로 기록하고, 이를 바탕으로 남은 보관 기간을 계산하는 시스템을 구현  <br>
+- 사용자의 입력 시간을 50% 감소시킴
+<br>
+<br>
 
-#### 기능명세서
-https://angiejeong.notion.site/fa38e2bd601b4f859269af1170ce8813?v=b33208bbae1740b0bd99db764df8aa39&pvs=4
+## 기타 개선 사항 <br>
+1. 상태에 따른 UI 업데이트로 사용자 친화적 시스템 구현 <br>
+- Provider를 활용하여 동적으로 UI를 업데이트하여 페이지 이탈 없이 효율적으로 필요한 액션을 취할 수 있도록 함 <br>
+- 단일 페이지 내에서 모든 필수 기능을 수행할 수 있게 되어 사용 편의성을 향상 시킴 <br>
+2. UI 통일성 및 협업 효율성 향상을 위한 공통 Widget 모듈화 <br>
+- 재사용 가능한 위젯 파악 → dialog와 button 위젯을 제작하여 UI 컴포넌트 모듈화 <br>
+- UI 개발 효율성이 증가하고 팀원 간의 협업이 원활해짐 <br>
+3. 코드의 가독성 및 안정성 향상을 위한 MVVM 디자인 패턴 적용 <br>
+- UI와 로직을 분리하고 의존성 주입, Provider를 활용하여 코드 구조 개선 <br>
+- 가독성이 향상되어 팀원들이 서로의 코드를 더 쉽게 이해하고 유지보수 용이성이 높아짐 <br>
 
-#### figma
-https://www.figma.com/file/nUCmIucid5ugEkT5f1yD9D/leute?type=design&node-id=0%3A1&mode=design&t=ldbgQe8UTGboDGWF-1
+
 
 <br>
 
