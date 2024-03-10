@@ -12,6 +12,10 @@
 Dart, Flutter, Provider, MVVM, Figma, Notion
 <br>
 <br>
+## 상태관리 & 디자인패턴
+Provider, MVVM
+<br>
+<br>
 ## 인원 구성
 총 6인 (기여도 30%) | 플러터 개발자
 <br>
