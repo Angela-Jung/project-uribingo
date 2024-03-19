@@ -1,7 +1,7 @@
 # 우리빙고 (UriBingo)
 
 공용 냉장고 관리 솔루션을 제공하는 앱 <br>
-2024.01 - 2024.02 (팀 프로젝트)
+2024.01 - 2024.02 (팀 프로젝트) <br>
 Google Play Store: https://play.google.com/store/apps/details?id=com.uribingo
 
 ![제목 추가](https://github.com/sanghyun3377/project_super.team/assets/89803783/120e6f74-eb01-4b54-b00d-f9a7f2a2f060)
